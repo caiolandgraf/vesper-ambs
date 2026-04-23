@@ -36,7 +36,7 @@
     "statusBar.foreground": "#A0A0A0",
     "statusBarItem.remoteBackground": "#7A4CFF",
     "statusBarItem.remoteForeground": "#000",
-    "list.activeSelectionForeground": "#C084FC",
+    "list.activeSelectionForeground": "#d1a3ff",
     "list.inactiveSelectionBackground": "#232323",
     "badge.background": "#7A4CFF",
     "badge.foreground": "#000",
@@ -64,9 +64,9 @@
     "editorHoverWidget.border": "#282828",
     "scrollbarSlider.background": "#34343480",
     "scrollbarSlider.hoverBackground": "#343434",
-    "gitDecoration.addedResourceForeground": "#7A4CFF",
-    "gitDecoration.untrackedResourceForeground": "#7A4CFF",
-    "gitDecoration.modifiedResourceForeground": "#A855F7",
+    "gitDecoration.addedResourceForeground": "#d1a3ff",
+    "gitDecoration.untrackedResourceForeground": "#b56bff",
+    "gitDecoration.modifiedResourceForeground": "#7DD3FC",
     "gitDecoration.deletedResourceForeground": "#F87171",
     "gitDecoration.ignoredResourceForeground": "#595959",
     "gitDecoration.conflictingResourceForeground": "#F87171",
@@ -229,6 +229,38 @@
       ],
       "settings": {
         "foreground": "#A0A0A0"
+      }
+    },
+    {
+      "name": "HTML Tags",
+      "scope": [
+        "entity.name.tag",
+        "meta.tag",
+        "meta.tag entity.name.tag"
+      ],
+      "settings": {
+        "foreground": "#A78BFA"
+      }
+    },
+    {
+      "name": "CSS Classes",
+      "scope": [
+        "entity.other.attribute-name.class",
+        "entity.other.class",
+        "support.type.property-name.css"
+      ],
+      "settings": {
+        "foreground": "#C4B5FD"
+      }
+    },
+    {
+      "name": "CSS Properties",
+      "scope": [
+        "support.type.property-name.css",
+        "meta.property-name.css"
+      ],
+      "settings": {
+        "foreground": "#7DD3FC"
       }
     },
     {
