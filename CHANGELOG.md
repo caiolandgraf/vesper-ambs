@@ -21,3 +21,4 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - 🎉 Add HTML and CSS support
 - Improve contrast in text of list
+- Improve color of buttons
