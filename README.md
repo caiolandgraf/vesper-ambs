@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <a href="https://marketplace.visualstudio.com/items?itemName=Caiolandgraf.vesper-ambs">
+  <a href="https://marketplace.visualstudio.com/items?itemName=RocketseatAMBS.vesper-ambs">
     <strong>Install →</strong>
   </a>
 </p>
