@@ -27,3 +27,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - 🎨 Improve contrast in text of list based on git status
 - 🎨 Improve color of Operators and Function Keywords
+
+## [2.1.2] - 2026-04-23
+
+- 🎨 Improve color of Variables

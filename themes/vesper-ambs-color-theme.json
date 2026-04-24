@@ -109,6 +109,17 @@
   },
   "tokenColors": [
     {
+      "name": "JSON Keys",
+      "scope": [
+        "support.type.property-name.json",
+        "meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#A78BFA"
+      },
+    },
+    {
       "name": "Function Keywords",
       "scope": [
         "storage.type.function",
@@ -171,6 +182,28 @@
       "settings": {
         "foreground": "#7DD3FC"
         // "foreground": "#8b86ef"
+      }
+    },
+    {
+      "name": "Object Property Keys",
+      "scope": [
+        "variable.other.property",
+        "variable.object.property",
+        "meta.object-literal.key"
+      ],
+      "settings": {
+        "foreground": "#E5E7EB"
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": [
+        "variable.other"
+      ],
+      "settings": {
+        // "fontStyle": "italic",
+        "foreground": "#f1d6fe",
+        // "foreground": "#DDD6FE"
       }
     },
     {
