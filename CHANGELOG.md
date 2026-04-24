@@ -35,3 +35,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [2.1.3] - 2026-04-23
 
 - 🎨 Improve color of Variables
+
+## [2.1.4] - 2026-04-23
+
+- 🎨 Improve color file names in list based in git status
