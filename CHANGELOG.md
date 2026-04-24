@@ -22,3 +22,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - 🎉 Add HTML and CSS support
 - Improve contrast in text of list
 - Improve color of buttons
+
+## [2.1.1] - 2026-04-23
+
+- 🎨 Improve contrast in text of list based on git status
+- 🎨 Improve color of Operators and Function Keywords

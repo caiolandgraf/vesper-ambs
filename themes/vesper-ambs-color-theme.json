@@ -109,6 +109,18 @@
   },
   "tokenColors": [
     {
+      "name": "Function Keywords",
+      "scope": [
+        "storage.type.function",
+        "keyword.function",
+        "keyword.declaration.function",
+        "storage.type.function.go"
+      ],
+      "settings": {
+        "foreground": "#d1a3ff"
+      }
+    },
+    {
       "name": "Comment",
       "scope": [
         "comment"
@@ -273,5 +285,15 @@
         "foreground": "#9CA3AF"
       }
     },
+    {
+      "name": "Operators",
+      "scope": [
+        "keyword.operator",
+        "punctuation.definition.operator"
+      ],
+      "settings": {
+        "foreground": "#6B7280"
+      }
+    }
   ]
 }
