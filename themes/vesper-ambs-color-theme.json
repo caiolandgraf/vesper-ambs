@@ -180,7 +180,7 @@
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "#7DD3FC"
+        "foreground": "#be84f7"
         // "foreground": "#8b86ef"
       }
     },
@@ -192,7 +192,8 @@
         "meta.object-literal.key"
       ],
       "settings": {
-        "foreground": "#E5E7EB"
+        // "foreground": "#E5E7EB"
+        "foreground": "#A78BFA",
       }
     },
     {
@@ -202,7 +203,8 @@
       ],
       "settings": {
         // "fontStyle": "italic",
-        "foreground": "#f1d6fe",
+        // "foreground": "#f1d6fe",
+        "foreground": "#E5E7EB"
         // "foreground": "#DDD6FE"
       }
     },
