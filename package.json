@@ -19,7 +19,7 @@
     "obstinate"
   ],
   "icon": "icon.png",
-  "version": "2.1.4",
+  "version": "2.2.0",
   "engines": {
     "vscode": "^1.60.0"
   },
@@ -32,6 +32,21 @@
         "label": "Vesper AMBS",
         "uiTheme": "vs-dark",
         "path": "./themes/vesper-ambs-color-theme.json"
+      },
+      {
+        "label": "Vesper AMBS A11Y",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vesper-ambs-a11y-color-theme.json"
+      },
+      {
+        "label": "Vesper AMBS A11Y High Contrast",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vesper-ambs-a11y-high-constrat-color-theme.json"
+      },
+      {
+        "label": "Vesper AMBS Yellow Functions",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vesper-ambs-yellow-functions-color-theme.json"
       }
     ]
   }

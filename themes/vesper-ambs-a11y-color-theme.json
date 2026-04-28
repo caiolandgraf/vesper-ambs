@@ -1,5 +1,5 @@
 {
-  "name": "Vesper AMBS",
+  "name": "Vesper AMBS A11Y",
   "colors": {
     "editor.background": "#0c0c0c",
     "editor.foreground": "#E5E7EB",
@@ -122,16 +122,6 @@
       },
     },
     {
-      "name": "Function Name",
-      "scope": [
-        "entity.name.function",
-        "support.function"
-      ],
-      "settings": {
-        "foreground": "#818CF8",
-      }
-    },
-    {
       "name": "Function Keywords",
       "scope": [
         "storage.type.function",
@@ -169,7 +159,7 @@
         "keyword.control.from"
       ],
       "settings": {
-        "foreground": "#f871c7",
+        "foreground": "#C586C0", // Accent da sua paleta
         "fontStyle": "bold"
       }
     },
@@ -182,7 +172,7 @@
         "keyword.control.loop"
       ],
       "settings": {
-        "foreground": "#f871c7"
+        "foreground": "#C586C0" // Accent da sua paleta
       }
     },
     {
@@ -226,8 +216,7 @@
         "string"
       ],
       "settings": {
-        // "foreground": "#86EFAC"
-        "foreground": "#7DD3FC"
+        "foreground": "#4EC9B0" // Secondary da sua paleta
       }
     },
     {
@@ -236,7 +225,18 @@
         "constant.numeric"
       ],
       "settings": {
-        "foreground": "#F9A8D4"
+        "foreground": "#DCDCAA" // Warning da sua paleta (amarelo)
+      }
+    },
+    {
+      "name": "Booleans & Null",
+      "scope": [
+        "constant.language.boolean",
+        "constant.language",
+        "constant.language.null"
+      ],
+      "settings": {
+        "foreground": "#C586C0" // Accent da sua paleta (roxo)
       }
     },
     {
@@ -260,17 +260,6 @@
       }
     },
     {
-      "name": "Booleans & Null",
-      "scope": [
-        "constant.language.boolean",
-        "constant.language",
-        "constant.language.null"
-      ],
-      "settings": {
-        "foreground": "#F9A8D4"
-      }
-    },
-    {
       "name": "Regex",
       "scope": [
         "string.regexp",
@@ -281,6 +270,16 @@
       }
     },
     {
+      "name": "Functions",
+      "scope": [
+        "entity.name.function",
+        "support.function"
+      ],
+      "settings": {
+        "foreground": "#569CD6" // Primary da sua paleta
+      }
+    },
+    {
       "name": "HTML Tags",
       "scope": [
         "entity.name.tag",
@@ -288,7 +287,7 @@
         "meta.tag entity.name.tag"
       ],
       "settings": {
-        "foreground": "#A78BFA"
+        "foreground": "#A78BFA" // Mantendo o roxo claro ou testar outra cor
       }
     },
     {

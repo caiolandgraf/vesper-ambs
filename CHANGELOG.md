@@ -39,3 +39,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [2.1.4] - 2026-04-23
 
 - 🎨 Improve color file names in list based in git status
+
+## [2.2.0] - 2026-04-23
+
+- 🎉 Add new color themes for accessibility and yellow functions
+- 🎨 Improve color of Functions
+- 🎨 Improve color of Comments

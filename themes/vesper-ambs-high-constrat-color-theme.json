@@ -1,0 +1,290 @@
+{
+  "name": "Vesper AMBS A11Y High Contrast",
+  "type": "dark",
+  "colors": {
+    // Cores base do editor, inspiradas no "School Theme A11Y Strong"
+    "editor.background": "#0c0c0c", // Fundo escuro para alto contraste
+    "editor.foreground": "#E6E6E6", // Foreground claro para alto contraste
+    // Destaques de linha e seleção
+    "editor.lineHighlightBackground": "#1F2330", // Destaque de linha sutil
+    "editor.selectionBackground": "#2A3A5A", // Seleção em azul escuro
+    "editor.selectionHighlightBackground": "#2A3A5A40", // Destaque de seleção mais transparente
+    // Cursor do editor
+    "editorCursor.foreground": "#FFFFFF", // Cursor branco para máxima visibilidade
+    // Cores de aviso e erro (mantendo as sugestões anteriores para acessibilidade)
+    "editorWarning.foreground": "#DCDCAA", // Amarelo para avisos
+    "editorError.foreground": "#F44747", // Vermelho forte para erros
+    // Números de linha
+    "editorLineNumber.foreground": "#5C6370", // Cinza para números de linha (do School Theme comment)
+    "editorLineNumber.activeForeground": "#E6E6E6", // Número da linha ativa em branco
+    // Cores da interface geral (mantendo as do seu tema original, mas garantindo contraste)
+    "editorWidget.background": "#0c0c0c",
+    "editorOverviewRuler.border": "#0c0c0c",
+    "sideBar.background": "#0c0c0c",
+    "sideBarTitle.foreground": "#E6E6E6",
+    "sideBarSectionHeader.foreground": "#E6E6E6",
+    "sideBarSectionHeader.background": "#0c0c0c",
+    "activityBar.background": "#0c0c0c",
+    "activityBar.foreground": "#E6E6E6",
+    "activityBarBadge.background": "#82AAFF", // Usando o azul dos keywords
+    "activityBarBadge.foreground": "#000",
+    "titleBar.activeBackground": "#0c0c0c",
+    "titleBar.inactiveBackground": "#0c0c0c",
+    "titleBar.activeForeground": "#E6E6E6",
+    "titleBar.inactiveForeground": "#5C6370", // Cinza mais suave
+    "tab.activeBorderTop": "#82AAFF", // Usando o azul dos keywords
+    "statusBar.debuggingForeground": "#FFF",
+    "statusBar.debuggingBackground": "#82AAFF", // Usando o azul dos keywords
+    "statusBar.background": "#0c0c0c",
+    "statusBar.foreground": "#E6E6E6",
+    "statusBarItem.remoteBackground": "#82AAFF", // Usando o azul dos keywords
+    "statusBarItem.remoteForeground": "#000",
+    "list.activeSelectionForeground": "#E6E6E6",
+    "list.inactiveSelectionBackground": "#1F2330",
+    "badge.background": "#82AAFF", // Usando o azul dos keywords
+    "badge.foreground": "#000",
+    "button.background": "#82AAFF", // Usando o azul dos keywords
+    "button.hoverBackground": "#569CD6", // Um azul um pouco diferente para hover
+    "button.foreground": "#000",
+    "focusBorder": "#82AAFF", // Usando o azul dos keywords
+    "icon.foreground": "#E6E6E6",
+    "input.background": "#1F2330",
+    "list.activeSelectionBackground": "#2A3A5A",
+    "list.hoverBackground": "#1F2330",
+    "list.errorForeground": "#F44747", // Vermelho forte para erros na lista
+    "list.highlightForeground": "#82AAFF", // Usando o azul dos keywords para destaque
+    "selection.background": "#2A3A5A",
+    "editorBracketHighlight.foreground1": "#82AAFF", // Azul para brackets
+    "editorBracketHighlight.foreground2": "#C3E88D", // Verde para brackets
+    "editorBracketHighlight.foreground3": "#B392F0", // Roxo para brackets
+    "editorBracketHighlight.foreground4": "#ECC48D", // Laranja para brackets
+    "editorBracketHighlight.foreground5": "#F78C6C", // Laranja avermelhado para brackets
+    "editorBracketHighlight.foreground6": "#DCDCAA", // Amarelo para brackets
+    "editorBracketHighlight.unexpectedBracket.foreground": "#F44747", // Vermelho para brackets inesperados
+    "textLink.foreground": "#82AAFF", // Azul para links
+    "textLink.activeForeground": "#569CD6", // Azul mais claro para links ativos
+    "editorHoverWidget.background": "#1F2330",
+    "editorHoverWidget.border": "#2A3A5A",
+    "scrollbarSlider.background": "#5C637080",
+    "scrollbarSlider.hoverBackground": "#5C6370",
+    // Git Decorations (adaptando para as novas cores)
+    "gitDecoration.addedResourceForeground": "#C3E88D", // Verde das funções
+    "gitDecoration.untrackedResourceForeground": "#ECC48D", // Laranja das strings
+    "gitDecoration.modifiedResourceForeground": "#82AAFF", // Azul dos keywords
+    "gitDecoration.deletedResourceForeground": "#F44747", // Vermelho forte
+    "gitDecoration.ignoredResourceForeground": "#5C6370", // Cinza dos comentários
+    "gitDecoration.conflictingResourceForeground": "#F44747", // Vermelho forte
+    "gitDecoration.submoduleResourceForeground": "#B392F0", // Roxo dos tipos
+    "gitDecoration.stageModifiedResourceForeground": "#82AAFF", // Azul dos keywords
+    "gitDecoration.stageDeletedResourceForeground": "#F44747", // Vermelho forte
+    "settings.modifiedItemIndicator": "#82AAFF", // Azul dos keywords
+    // Terminal Colors (adaptando para as novas cores)
+    "terminal.ansiBlack": "#0c0c0c",
+    "terminal.ansiBlue": "#82AAFF",
+    "terminal.ansiBrightBlack": "#5C6370",
+    "terminal.ansiBrightBlue": "#569CD6",
+    "terminal.ansiBrightCyan": "#B392F0",
+    "terminal.ansiBrightGreen": "#C3E88D",
+    "terminal.ansiBrightMagenta": "#F78C6C",
+    "terminal.ansiBrightRed": "#F44747",
+    "terminal.ansiBrightWhite": "#E6E6E6",
+    "terminal.ansiBrightYellow": "#ECC48D",
+    "terminal.ansiCyan": "#B392F0",
+    "terminal.ansiGreen": "#C3E88D",
+    "terminal.ansiMagenta": "#F78C6C",
+    "terminal.ansiRed": "#F44747",
+    "terminal.ansiWhite": "#E6E6E6",
+    "terminal.ansiYellow": "#ECC48D",
+    "terminal.background": "#0c0c0c",
+    // Outros elementos do editor
+    "editorGroup.border": "#2A3A5A",
+    "editorGroupHeader.tabsBackground": "#0c0c0c",
+    "tab.inactiveBackground": "#0c0c0c",
+    "tab.border": "#0c0c0c",
+    "editorGutter.addedBackground": "#C3E88D", // Verde das funções
+    "editorGutter.deletedBackground": "#F44747", // Vermelho forte
+    "editorGutter.modifiedBackground": "#82AAFF", // Azul dos keywords
+    "diffEditor.insertedTextBackground": "#C3E88D40",
+    "diffEditor.insertedLineBackground": "#C3E88D40",
+    "diffEditor.removedTextBackground": "#F4474740",
+    "diffEditor.removedLineBackground": "#F4474740",
+    // Inlay Hints (mantendo os tons neutros para não competir com o código)
+    "editorInlayHint.parameterForeground": "#5C6370",
+    "editorInlayHint.parameterBackground": "#1F2330"
+  },
+  "semanticTokenColors": {
+    "property.readonly": "#E6E6E6" // Propriedades readonly em branco para clareza
+  },
+  "tokenColors": [
+    {
+      "name": "Comment",
+      "scope": [
+        "comment"
+      ],
+      "settings": {
+        "foreground": "#5C6370", // Cinza para comentários
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Keyword",
+      "scope": [
+        "keyword",
+        "storage.type",
+        "storage.modifier",
+        "keyword.control.import",
+        "keyword.control.export",
+        "keyword.control.from",
+        "keyword.control",
+        "keyword.control.flow",
+        "keyword.control.conditional",
+        "keyword.control.loop"
+      ],
+      "settings": {
+        "foreground": "#82AAFF", // Azul vibrante para palavras-chave
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "String",
+      "scope": [
+        "string"
+      ],
+      "settings": {
+        "foreground": "#ECC48D" // Laranja/amarelo claro para strings
+      }
+    },
+    {
+      "name": "Number",
+      "scope": [
+        "constant.numeric"
+      ],
+      "settings": {
+        "foreground": "#F78C6C", // Laranja avermelhado para números
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Function Name",
+      "scope": [
+        "entity.name.function",
+        "support.function"
+      ],
+      "settings": {
+        "foreground": "#C3E88D", // Verde claro vibrante para nomes de função
+        "fontStyle": "bold underline" // Sublinhado para reforçar
+      }
+    },
+    {
+      "name": "Variable",
+      "scope": [
+        "variable",
+        "identifier",
+        "variable.other",
+        "variable.other.property",
+        "variable.object.property",
+        "meta.object-literal.key"
+      ],
+      "settings": {
+        "foreground": "#E6E6E6" // Branco para variáveis e chaves de propriedade
+      }
+    },
+    {
+      "name": "Type",
+      "scope": [
+        "entity.name.type",
+        "support.class"
+      ],
+      "settings": {
+        "foreground": "#B392F0" // Roxo para tipos
+      }
+    },
+    {
+      "name": "Invalid",
+      "scope": [
+        "invalid"
+      ],
+      "settings": {
+        "foreground": "#FFFFFF",
+        "background": "#5A1A1A", // Fundo vermelho escuro para erros graves
+        "fontStyle": "underline"
+      }
+    },
+    {
+      "name": "Booleans & Null",
+      "scope": [
+        "constant.language.boolean",
+        "constant.language",
+        "constant.language.null"
+      ],
+      "settings": {
+        "foreground": "#F78C6C" // Usando o laranja avermelhado dos números para booleanos/nulos
+      }
+    },
+    {
+      "name": "Regex",
+      "scope": [
+        "string.regexp",
+        "constant.character.escape"
+      ],
+      "settings": {
+        "foreground": "#ECC48D" // Laranja/amarelo para regex
+      }
+    },
+    {
+      "name": "HTML Tags",
+      "scope": [
+        "entity.name.tag",
+        "meta.tag",
+        "meta.tag entity.name.tag"
+      ],
+      "settings": {
+        "foreground": "#82AAFF" // Azul para tags HTML
+      }
+    },
+    {
+      "name": "CSS Classes",
+      "scope": [
+        "entity.other.attribute-name.class",
+        "entity.other.class",
+        "support.type.property-name.css"
+      ],
+      "settings": {
+        "foreground": "#B392F0" // Roxo para classes CSS
+      }
+    },
+    {
+      "name": "CSS Properties",
+      "scope": [
+        "support.type.property-name.css",
+        "meta.property-name.css"
+      ],
+      "settings": {
+        "foreground": "#C3E88D" // Verde para propriedades CSS
+      }
+    },
+    {
+      "name": "Operators & Punctuation",
+      "scope": [
+        "punctuation",
+        "operator",
+        "keyword.operator",
+        "punctuation.definition.operator"
+      ],
+      "settings": {
+        "foreground": "#5C6370" // Cinza para operadores e pontuação
+      }
+    },
+    {
+      "name": "JSON Keys",
+      "scope": [
+        "support.type.property-name.json",
+        "meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#E6E6E6" // Chaves JSON em branco para clareza
+      }
+    }
+  ]
+}

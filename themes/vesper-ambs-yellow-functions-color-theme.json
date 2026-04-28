@@ -1,5 +1,5 @@
 {
-  "name": "Vesper AMBS",
+  "name": "Vesper AMBS Yellow Functions",
   "colors": {
     "editor.background": "#0c0c0c",
     "editor.foreground": "#E5E7EB",
@@ -128,7 +128,7 @@
         "support.function"
       ],
       "settings": {
-        "foreground": "#818CF8",
+        "foreground": "#FFC799",
       }
     },
     {
