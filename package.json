@@ -19,7 +19,7 @@
     "obstinate"
   ],
   "icon": "icon.png",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "engines": {
     "vscode": "^1.60.0"
   },
@@ -41,7 +41,7 @@
       {
         "label": "Vesper AMBS A11Y High Contrast",
         "uiTheme": "vs-dark",
-        "path": "./themes/vesper-ambs-a11y-high-constrat-color-theme.json"
+        "path": "./themes/vesper-ambs-a11y-high-contrast-color-theme.json"
       },
       {
         "label": "Vesper AMBS Yellow Functions",
